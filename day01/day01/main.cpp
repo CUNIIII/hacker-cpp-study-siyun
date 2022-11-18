@@ -1,8 +1,15 @@
 #include <iostream>
 
+/*
+ DAY01)
+    Dynamic Allocation of Array 이론 및 실습
+*/
+
 using namespace std;
 
 int main() {
+    
+    // 동적 할당 배열
     int n;
     cin >> n;
     int **arr = new int*[n];
